@@ -3,20 +3,32 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "start": "node index.js"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "lucide-react": "^1.17.0",
     "next": "16.2.7",
+    "qrcode-terminal": "^0.12.0",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "whatsapp-web.js": "^1.34.7"
   },
   "devDependencies": {
     "eslint": "^9",
     "eslint-config-next": "16.2.7"
-  }
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karan-Raj-KR/ClinicAI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karan-Raj-KR/ClinicAI/issues"
+  },
+  "homepage": "https://github.com/Karan-Raj-KR/ClinicAI#readme"
 }
